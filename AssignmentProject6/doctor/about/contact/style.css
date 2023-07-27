@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+}
+body{
+    max-width: 1440px;
+    /* overflow: hidden; */
+    margin: auto;
+}
+.navbar{
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+.links{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: large;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form h1{
+    text-align: center;
+  }
+
+form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+form div input{
+    border: transparent;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  form div textarea{
+    resize: none;
+    height: 100px;
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+form button{
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
